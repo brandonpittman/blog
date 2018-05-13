@@ -16,6 +16,12 @@
 
 <script>
 export default {
+    data: function () {
+        return {
+            name: "brandon",
+            age: 34
+        }
+    },
     mounted() {
         console.log('Component mounted.')
     }

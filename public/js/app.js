@@ -13891,6 +13891,8 @@ window.Vue = __webpack_require__(36);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+Vue.config.devtools = true;
+
 Vue.component('example-component', __webpack_require__(39));
 
 var app = new Vue({
@@ -47329,6 +47331,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 /* harmony default export */ __webpack_exports__["default"] = ({
+    data: function data() {
+        return {
+            name: "brandon",
+            age: 34
+        };
+    },
     mounted: function mounted() {
         console.log('Component mounted.');
     }

@@ -80,11 +80,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Brandon
+                    <p>{{ explode(" ", App\User::first()->name)[0] }}</p>
                 </div>
 
                 <div class="links">
-                    <a href="posts">Blog</a>
+                    <a href="http://pixelsnatch.com">Pixelsnatch</a>
+                    <a href="posts">New Blog</a>
                 </div>
             </div>
         </div>

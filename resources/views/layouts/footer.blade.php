@@ -1,3 +1,5 @@
 <footer class="blog-footer">
     <p><a href="#">Back to top</a></p>
 </footer>
+
+<script src="/js/app.js"></script>

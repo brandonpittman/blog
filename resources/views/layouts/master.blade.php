@@ -24,9 +24,10 @@
 
         @include('layouts.nav')
 
-        <div class="container">
+        <div id="app" class="container">
 
             <div class="row">
+
 
                 @yield('content')
 
