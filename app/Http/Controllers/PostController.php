@@ -13,4 +13,26 @@ class PostController extends Controller
 
       return view('posts.index', compact('posts'));
     }
+
+    public function show ()
+    {
+        return view('posts.show');
+    }
+
+    public function create() {
+        return view('posts.create');
+    }
+
+    public function store ()
+
+    {
+        Post::create([
+            'title' => request('title'),
+            'body' => request('body')
+        ]);
+
+
+
+        return redirect('/posts');
+    }
 }
